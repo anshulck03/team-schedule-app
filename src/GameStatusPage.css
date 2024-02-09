@@ -1,0 +1,118 @@
+
+.game-status-page{
+    padding: 110px;
+}
+.page-container {
+    margin-top: 10px;
+    padding: 50px; /* Increased padding */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    overflow-x: auto; /* Allow horizontal scrolling */
+  }
+  
+  .page-title {
+    font-size: 2.5rem;
+    color: #333;
+    white-space: nowrap; /* Prevent title from wrapping */
+    overflow: hidden; /* Hide overflowed text */
+    text-overflow: ellipsis; /* Show ellipsis for overflowed text */
+  }
+  
+  .status-select-container {
+    margin-bottom: 20px;
+  }
+  
+  .status-label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  .status-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .filtered-games-container {
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .filtered-games-title {
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .games-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .game-item {
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  }
+  
+  .game-index {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .game-info {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .page-title {
+      font-size: 2rem;
+    }
+  
+    .status-select {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .page-title {
+      font-size: 1.8rem;
+    }
+  
+    .status-label {
+      font-size: 0.9rem;
+      margin-right: 5px;
+    }
+  
+    .status-select {
+      padding: 6px;
+      font-size: 0.8rem;
+    }
+  
+    .filtered-games-title {
+      font-size: 1.6rem;
+    }
+  
+    .game-item {
+      padding: 10px;
+    }
+  
+    .game-index {
+      font-size: 1rem;
+    }
+  
+    .game-info {
+      font-size: 0.9rem;
+    }
+  }
+  
